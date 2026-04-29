@@ -1,21 +1,11 @@
 """
 Evaluation module for Financial QA pipeline.
-
-Submission-ready scope for the PwC take-home:
     - Exact Match
     - Token-level F1
     - ROUGE-L
     - Numerical accuracy
     - Abstention metrics
     - Lightweight operational metrics (latency and token usage)
-
-This version intentionally removes:
-    - BERTScore
-    - Calibration / Brier score
-    - LLM-as-judge
-
-The assignment prioritises clarity, reproducibility, and pragmatic judgment
-over complexity, so this module keeps the strongest task-relevant metrics.
 """
 
 from __future__ import annotations
