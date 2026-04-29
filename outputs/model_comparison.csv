@@ -1,0 +1,3 @@
+Model,Coverage,Answered,Abstained,Exact Match,Token F1,ROUGE-L,Numerical Accuracy,Should-Have-Abstained Rate,Avg Latency (ms),Total Tokens,Cost (50 samples),Projected Cost / 1K Q,Projected Cost / 10K Q
+gpt-4.1,0.96,48,2,0.25,0.7295,0.7119,0.75,0.0625,1770.54,39091,0.11606,2.3212,23.212
+gpt-4.1-mini,0.96,48,2,0.2917,0.767,0.7521,0.8333,0.0208,2705.09,39259,0.023480800000000003,0.46961600000000003,4.696160000000001

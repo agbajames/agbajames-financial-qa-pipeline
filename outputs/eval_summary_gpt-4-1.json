@@ -1,0 +1,48 @@
+{
+  "model": "gpt-4.1",
+  "summary": {
+    "n_total": 50,
+    "n_answered": 48,
+    "n_abstained": 2,
+    "n_errors": 0,
+    "coverage": 0.96,
+    "accuracy_at_answered": 0.7295,
+    "should_have_abstained_rate": 0.0625,
+    "mean_exact_match": 0.25,
+    "mean_token_f1": 0.7295,
+    "mean_rouge_l": 0.7119,
+    "mean_numerical_accuracy": 0.75,
+    "mean_numerical_rel_error": 8.0449,
+    "mean_latency_ms": 1770.54,
+    "total_input_tokens": 32778,
+    "total_output_tokens": 6313,
+    "total_tokens": 39091,
+    "mean_confidence": 4.9792
+  },
+  "abstention": {
+    "total_samples": 50,
+    "answered": 48,
+    "abstained": 2,
+    "coverage": 0.96,
+    "accuracy_at_answered": 0.7295,
+    "should_have_abstained": 3,
+    "should_have_abstained_rate": 0.0625,
+    "by_answer_type": {
+      "numeric": {
+        "total": 8,
+        "answered": 8,
+        "abstained": 0
+      },
+      "long_text": {
+        "total": 34,
+        "answered": 32,
+        "abstained": 2
+      },
+      "short_text": {
+        "total": 8,
+        "answered": 8,
+        "abstained": 0
+      }
+    }
+  }
+}

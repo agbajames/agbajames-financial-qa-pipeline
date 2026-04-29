@@ -1,0 +1,26 @@
+{
+  "recommended_model": "gpt-4.1-mini",
+  "rationale": "gpt-4.1-mini matched or exceeded gpt-4.1 on every quality metric in this evaluation while costing roughly an order of magnitude less per question, making it the recommended production choice on both quality and cost.",
+  "models": {
+    "gpt-4.1": {
+      "coverage": 0.96,
+      "token_f1": 0.7295,
+      "rouge_l": 0.7119,
+      "numerical_accuracy": 0.75,
+      "should_have_abstained_rate": 0.0625,
+      "mean_latency_ms": 1770.54,
+      "total_tokens": 39091,
+      "projected_cost_per_1k_questions": 2.3212
+    },
+    "gpt-4.1-mini": {
+      "coverage": 0.96,
+      "token_f1": 0.767,
+      "rouge_l": 0.7521,
+      "numerical_accuracy": 0.8333,
+      "should_have_abstained_rate": 0.0208,
+      "mean_latency_ms": 2705.09,
+      "total_tokens": 39259,
+      "projected_cost_per_1k_questions": 0.46961600000000003
+    }
+  }
+}

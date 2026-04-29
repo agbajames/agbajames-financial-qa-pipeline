@@ -1,0 +1,26 @@
+# Financial QA Pipeline — Submission Configuration
+
+dataset:
+  csv_path: "Financial-QA-10k.csv"
+  sample_size: 50
+  random_seed: 42
+
+models:
+  - name: "gpt-4.1"
+    description: "Higher-quality candidate model"
+    input_cost_per_mtok: 2.00
+    output_cost_per_mtok: 8.00
+  - name: "gpt-4.1-mini"
+    description: "Lower-cost candidate model"
+    input_cost_per_mtok: 0.40
+    output_cost_per_mtok: 1.60
+
+pipeline:
+  temperature: 0.0
+  max_retries: 3
+  retry_delay_seconds: 2.0
+
+output:
+  predictions_dir: "outputs"
+  evaluation_dir: "outputs"
+  slides_dir: "slides"
