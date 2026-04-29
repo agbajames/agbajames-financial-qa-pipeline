@@ -1,4 +1,4 @@
-# Financial QA Pipeline — Submission Configuration
+# Financial QA Pipeline — Configuration
 
 dataset:
   csv_path: "Financial-QA-10k.csv"
